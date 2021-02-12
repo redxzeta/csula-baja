@@ -1,5 +1,7 @@
 import { useState } from "react";
 
+const links = ["Team", "Calendar", "Gallery", "Support", "Contact", "Podcast"];
+
 const NavigationBar = () => {
   const [active, setActive] = useState(false);
 
@@ -7,12 +9,12 @@ const NavigationBar = () => {
     setActive(!active);
   };
   return (
-    <nav className="flex items-center flex-wrap bg-yellow p-3 ">
+    <nav className="font-display flex items-center flex-wrap  p-3  transform shadow-lg bg-gradient-to-br  from-yellow to-prime  ">
       <a
         href="https://www.google.com/"
         className="inline-flex items-center p-2 mr-4 "
       >
-        <span className="text-lg text-black font-bold uppercase tracking-wide max-w-screen-md:hidden">
+        <span className="text-xl text-black font-bold uppercase tracking-wide subpixel-antialiased">
           Cal State LA Baja SAE
         </span>
       </a>
@@ -43,48 +45,22 @@ const NavigationBar = () => {
         }   w-full lg:inline-flex lg:flex-grow lg:w-auto`}
       >
         <div className="lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center items-start  flex flex-col lg:h-auto ">
-          <a
-            href="https://www.google.com/"
-            className="lg:inline-flex  lg:w-auto w-full px-3 py-2 rounded text-black font-bold items-center justify-center hover:bg-green-600 hover:text-gray-500"
-          >
-            Team
-          </a>
-
-          <a
-            href="https://www.google.com/"
-            className="lg:inline-flex  lg:w-auto w-full px-3 py-2 rounded text-black font-bold items-center justify-center hover:bg-green-600 hover:text-gray-500"
-          >
-            Calendar
-          </a>
-
-          <a
-            href="https://www.google.com/"
-            className="lg:inline-flex  lg:w-auto w-full px-3 py-2 rounded text-black font-bold items-center justify-center hover:bg-green-600 hover:text-gray-500"
-          >
-            Gallery
-          </a>
-          <a
-            href="https://www.google.com/"
-            className="lg:inline-flex  lg:w-auto w-full px-3 py-2 rounded text-black font-bold items-center justify-center hover:bg-green-600 hover:text-gray-500"
-          >
-            Support
-          </a>
-          <a
-            href="https://www.google.com/"
-            className="lg:inline-flex  lg:w-auto w-full px-3 py-2 rounded text-black font-bold items-center justify-center hover:bg-green-600 hover:text-gray-500"
-          >
-            Contact
-          </a>
-          <a
-            href="https://www.google.com/"
-            className="lg:inline-flex  lg:w-auto w-full px-3 py-2 rounded text-black font-bold items-center justify-center hover:bg-green-600 hover:text-gray-500"
-          >
-            Podcast
-          </a>
+          {links.map((link) => (
+            <NavLink key={link}>{link}</NavLink>
+          ))}
         </div>
       </div>
     </nav>
   );
 };
+
+const NavLink = ({ children }) => (
+  <a
+    className="lg:inline-flex  lg:w-auto w-full px-3 py-2 rounded-full text-black font-bold items-center justify-center hover:bg-drime hover:text-white"
+    href="https://www.google.com/"
+  >
+    {children}
+  </a>
+);
 
 export default NavigationBar;
