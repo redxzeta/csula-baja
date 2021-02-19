@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const links = ["Team", "Calendar", "Gallery", "Support", "Contact", "Podcast"];
 
@@ -10,14 +11,11 @@ const NavigationBar = () => {
   };
   return (
     <nav className="font-display flex items-center flex-wrap  p-3  transform shadow-lg bg-gradient-to-br  from-yellow to-prime  ">
-      <a
-        href="https://www.google.com/"
-        className="inline-flex items-center p-2 mr-4 "
-      >
+      <Link to="/" className="inline-flex items-center p-2 mr-4 ">
         <span className="text-xl text-black font-bold uppercase tracking-wide subpixel-antialiased">
           Cal State LA Baja SAE
         </span>
-      </a>
+      </Link>
 
       <button
         className=" inline-flex p-3 hover:bg-green-600 rounded lg:hidden text-black ml-auto hover:text-gray-500 outline-none"
@@ -55,12 +53,12 @@ const NavigationBar = () => {
 };
 
 const NavLink = ({ children }) => (
-  <a
+  <Link
     className="lg:inline-flex  lg:w-auto w-full px-3 py-2 rounded-full text-black font-bold items-center justify-center hover:bg-drime hover:text-white"
-    href="https://www.google.com/"
+    to={`/${children.toLowerCase()}`}
   >
     {children}
-  </a>
+  </Link>
 );
 
 export default NavigationBar;

@@ -1,8 +1,11 @@
+import Carousel from "../../layout/carousel/Carousel";
+import MidContainer from "../../layout/container/MidContainer";
+
 const LandingPage = () => {
   return (
-    <>
-      <h1>TEST</h1>
-    </>
+    <MidContainer>
+      <Carousel />
+    </MidContainer>
   );
 };
 
