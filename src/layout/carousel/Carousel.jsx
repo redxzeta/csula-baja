@@ -1,13 +1,13 @@
 import { createRef, useState } from "react";
 import Card from "../cards/Card";
 import "./styles.css";
-// import Cart from "../../assets/cart.jpeg";
-// const images = [Cart, Cart, Cart];
-const images = [
-  "https://images.dog.ceo/breeds/groenendael/n02105056_5371.jpg",
-  "https://images.dog.ceo/breeds/groenendael/n02105056_5371.jpg",
-  "https://images.dog.ceo/breeds/groenendael/n02105056_5371.jpg",
-];
+import Cart from "../../assets/cart.jpeg";
+const images = [Cart, Cart, Cart];
+// const images = [
+//   "https://images.dog.ceo/breeds/groenendael/n02105056_5371.jpg",
+//   "https://images.dog.ceo/breeds/groenendael/n02105056_5371.jpg",
+//   "https://images.dog.ceo/breeds/groenendael/n02105056_5371.jpg",
+// ];
 const Carousel = () => {
   // We will start by storing the index of the current image in the state.
   const [currentImage, setCurrentImage] = useState(0);
@@ -65,13 +65,18 @@ const Carousel = () => {
         <div className=" flex-initial w-full md:w-1/2 md:p-5 p-1">
           <h2 className="uppercase font-bold">About us</h2>
           <p className="text-xs md:text-base">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+            Rugged Eagle Motorsports is a 40 year old student run organization
+            at Cal State LA made up of mechanical, electrical, and computer
+            engineers from diverse backgrounds. Every year we design and build a
+            new vehicle from the ground up and travel to compete against
+            hundreds of universities at the international Baja SAE competition.
+            Members gain hands-on engineering experience with the guidance of
+            faculty advisors, a strong alumni network, and support from our
+            sponsors. Most importantly the team builds lasting relationships
+            among students, hundreds of alumni, sponsors, and the Los Angeles
+            community and represents the engineering excellence that can be
+            achieved by diverse groups of students primarily from the Los
+            Angeles area.
           </p>
         </div>
         <div className=" flex flex-initial justify-center md:w-2/3 lg:w-1/2 items-center relative ">

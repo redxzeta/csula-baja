@@ -1,5 +1,5 @@
 const colors = require("tailwindcss/colors");
-
+// 747a7b
 module.exports = {
   purge: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"],
   darkMode: false, // or 'media' or 'class'
@@ -19,6 +19,9 @@ module.exports = {
       yellow: "#edf365",
       prime: "#ffdd00",
       drime: "#998506 ",
+      lighterBlack: "#353535",
+      darkWhite: "#f0f0f0",
+      secondary: "#272727",
     },
   },
 
