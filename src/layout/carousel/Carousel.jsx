@@ -1,8 +1,9 @@
 import { createRef, useState } from "react";
 import Card from "../cards/Card";
 import "./styles.css";
-import Cart from "../../assets/cart.jpeg";
-const images = [Cart, Cart, Cart];
+import images from "../../assets/about/About";
+
+// const images = [Cart, Cart, Cart];
 // const images = [
 //   "https://images.dog.ceo/breeds/groenendael/n02105056_5371.jpg",
 //   "https://images.dog.ceo/breeds/groenendael/n02105056_5371.jpg",
@@ -61,8 +62,8 @@ const Carousel = () => {
 
   return (
     <Card>
-      <div className="flex md:flex-row flex-col-reverse">
-        <div className=" flex-initial w-full md:w-1/2 md:p-5 p-1">
+      <div className="flex lg:flex-row flex-col-reverse">
+        <div className="flex flex-col justify-center flex-initial w-full  md:p-5 p-1  ">
           <h2 className="uppercase font-bold">About us</h2>
           <p className="text-xs md:text-base">
             Rugged Eagle Motorsports is a 40 year old student run organization
@@ -79,7 +80,7 @@ const Carousel = () => {
             Angeles area.
           </p>
         </div>
-        <div className=" flex flex-initial justify-center md:w-2/3 lg:w-1/2 items-center relative ">
+        <div className=" flex flex-grow justify-center md:w-2/3 lg:w-1/2 items-center relative m-auto">
           <div className="carousel">
             <ButtonSlider
               isLeft={true}
