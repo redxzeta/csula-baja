@@ -68,16 +68,18 @@ const Carousel = () => {
           <p className="text-xs md:text-base">
             Rugged Eagle Motorsports is a 40 year old student run organization
             at Cal State LA made up of mechanical, electrical, and computer
-            engineers from diverse backgrounds. Every year we design and build a
-            new vehicle from the ground up and travel to compete against
-            hundreds of universities at the international Baja SAE competition.
-            Members gain hands-on engineering experience with the guidance of
-            faculty advisors, a strong alumni network, and support from our
-            sponsors. Most importantly the team builds lasting relationships
-            among students, hundreds of alumni, sponsors, and the Los Angeles
-            community and represents the engineering excellence that can be
-            achieved by diverse groups of students primarily from the Los
-            Angeles area.
+            engineers from diverse backgrounds.
+          </p>
+          <p className="text-xs md:text-base">
+            Every year we design and build a new vehicle from the ground up and
+            travel to compete against hundreds of universities at the
+            international Baja SAE competition. Members gain hands-on
+            engineering experience with the guidance of faculty advisors, a
+            strong alumni network, and support from our sponsors. Most
+            importantly the team builds lasting relationships among students,
+            hundreds of alumni, sponsors, and the Los Angeles community and
+            represents the engineering excellence that can be achieved by
+            diverse groups of students primarily from the Los Angeles area.
           </p>
         </div>
         <div className=" flex flex-grow justify-center md:w-2/3 lg:w-1/2 items-center relative m-auto">

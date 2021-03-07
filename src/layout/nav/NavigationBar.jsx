@@ -1,20 +1,20 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-
+import Logo from "../../assets/baja_logo.png";
 const links = ["Team", "Calendar", "Gallery", "Support", "Contact", "Podcast"];
 
 const NavigationBar = () => {
   const [active, setActive] = useState(false);
 
-  const handleClick = () => {
-    setActive(!active);
-  };
+  const handleClick = () => setActive(!active);
+
   return (
-    <nav className="font-display flex items-center flex-wrap  p-3  transform shadow-lg bg-gradient-to-br  from-yellow to-prime  ">
+    <nav className="font-display  flex items-center flex-wrap  p-3  transform shadow-lg bg-gradient-to-br  from-yellow to-prime  ">
       <Link to="/" className="inline-flex items-center p-2 mr-4 ">
-        <span className="text-xl text-black font-bold uppercase tracking-wide subpixel-antialiased">
+        <span className="text-xl text-black font-bold uppercase tracking-wide subpixel-antialiased hidden md:block  ">
           Cal State LA Baja SAE
         </span>
+        <img src={Logo} alt="logo" className="h-11 w-auto md:hidden" />
       </Link>
 
       <button
