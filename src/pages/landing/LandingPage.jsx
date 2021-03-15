@@ -1,8 +1,7 @@
-import MemberCard from "../../layout/cards/MemberCard";
 import Carousel from "../../layout/carousel/Carousel";
 import MidContainer from "../../layout/container/MidContainer";
-import GridThree from "../../layout/grid/GridThree";
 import "./landing.css";
+import Quote from "./Quote";
 const LandingPage = () => {
   return (
     <>
@@ -15,9 +14,7 @@ const LandingPage = () => {
       </div>
       <MidContainer>
         <Carousel />
-        <GridThree>
-          <MemberCard /> <MemberCard /> <MemberCard />
-        </GridThree>
+        <Quote />
       </MidContainer>
     </>
   );

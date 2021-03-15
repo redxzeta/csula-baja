@@ -1,10 +1,7 @@
 import "./cards.css";
 const MemberCard = () => (
   <div class=" font-display ">
-    <div
-      class="flex  w-full
-    .0 0.bg-white shadow-lg rounded-lg overflow-hidden"
-    >
+    <div class="flex  w-full bg-white shadow-lg rounded-lg overflow-hidden">
       <div class="w-1/3 flex-none relative ">
         <img
           className="absolute inset-0 w-full h-full object-cover"

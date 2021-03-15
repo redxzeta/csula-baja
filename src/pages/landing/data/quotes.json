@@ -1,0 +1,70 @@
+[{
+
+        "id": 105,
+        "question": "What advice can you give prospective members?",
+        "quote": "Baja requires a substantial time commitment, but every hour I put into Baja has been worth it. Keeping up grades is important but learning how to apply what you learn in the classroom to a practical application is the most important thing to take away from college.",
+        "title": "Mechatronics Engineer",
+        "field": "Aerospace Engineering",
+        "name": "Kevin Knarr"
+    },
+    {
+        "id": 155,
+        "question": "What advice can you give prospective members?",
+        "quote": "Baja will give you teamwork, design, and manufacturing experience that you can use on the job. Even better, you can draw from SAE experience to respond to interview questions.",
+        "title": "Stress Analyst",
+        "field": "Aerospace Engineering",
+        "name": "Andrew Seetoo"
+    },
+    {
+        "id": 205,
+        "question": "What advice can you give prospective members?",
+        "quote": "Keep your grades up. You can only do SAE if you are a student first. For competition, GET TESTING ASAP! Build something and getting it running, the best designs mean nothing if they have never been tested!",
+        "title": "Engineering Technician",
+        "field": "Automotive Intake Design",
+        "name": "Vincent Calderon"
+
+
+    },
+    {
+        "id": 255,
+        "question": "How has SAE helped you in your career?",
+        "quote": "TEAM WORK!! Communication, communication and communication! You'll be exposed to many different personalities in the workplace where you’ll agree or disagree with others. The key is to find the middle ground, learn to compromise (not all the time) to ensure you as an engineer are doing the best practice in the industry.",
+        "title": "Senior Project Manager",
+        "field": "Utilities",
+        "name": "James"
+    },
+    {
+        "id": 305,
+        "question": "How has SAE helped you in your career?",
+        "quote": "Baja SAE helped me because of the people I've met. I was hired almost immediately. It's hard out there and every one is looking for experience.",
+        "title": "Plant Engineering Supervisor",
+        "field": "Plant Engineering",
+        "name": "Alejandro Contreras"
+    },
+    {
+        "id": 355,
+        "question": "How has SAE helped you in your career?",
+        "quote": "It exposed me to mechanical subjects that I would not have otherwise been exposed to as an electrical engineering major.",
+        "title": "Quality Engineer",
+        "field": "Aerospace Engineering",
+        "name": "Mabel Luu"
+    },
+    {
+        "id": 405,
+        "question": "How has SAE helped you in your career?",
+        "quote": "Baja gave me the experience to impress my interviewers and helped me land my first job. On the job, I apply many of the software and engineering skills I learned during my SAE days. There are many SAE people in many different industries, and there is no better way to break the ice than to talk of past SAE exploits.",
+        "title": "Stress Analyst",
+        "field": "Aerospace Engineering",
+        "name": "Andrew Seetoo"
+    },
+    {
+
+        "id": 455,
+        "question": "Have you met any other SAE alumni in your career?",
+        "quote": "Yes, I've met multiple SAE Alums from different schools, and I have worked closely with many as well.",
+        "title": "Lead Engineer",
+        "field": "Aerospace Engineering - System Testing",
+        "name": "Oshin Hovannesian"
+    }
+
+]
