@@ -8,7 +8,7 @@ const socialLinks = [
   "https://www.youtube.com/user/CSULAbajaSAE",
 ];
 const Footer = () => (
-  <footer className="w-full lg:h-80 h-100% bg-black p-10 lg:p-12 text-indigo-50 flex flex-col lg:flex-row lg:justify-between justify-evenly">
+  <footer className="w-full lg:h-72 h-100% bg-black p-10 lg:p-12 text-indigo-50 flex flex-col lg:flex-row lg:justify-between justify-evenly">
     <div className="flex flex-1 w-full lg:flex-row flex-col p-10 lg:p-0">
       <img
         src={QR}
