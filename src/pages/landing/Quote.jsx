@@ -10,7 +10,7 @@ const Quote = () => {
       <h1 className="font-bold uppercase text-xl">Quotes</h1>
       <GridThree>
         {Quotes.map((q) => (
-          <Fragment q={q.id}>
+          <Fragment key={q.id}>
             <QuoteCard {...q} />
           </Fragment>
         ))}
