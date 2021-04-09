@@ -25,7 +25,7 @@ const Footer = () => (
         <SocialIcon key={url} fgColor="white" url={url} className=" lg:mx-3" />
       ))}
     </div>
-    <div className="flex-1 lg:text-right text-left px-5 lg:px-0">
+    <div className="flex-1 flex-col flex lg:text-right text-left px-5 lg:px-0 lg:justify-center h-full w-full">
       <p className="text-2xl">Cal State LA Baja SAE</p>
       <p>5151 State University Drive</p>
       <p>Los Angeles, CA 90032</p>
